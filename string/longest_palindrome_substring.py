@@ -1,6 +1,9 @@
 """problem: Given a string s, return the longest palindromic substring in s.
 
-    approach : in this problem, first i try to find centre of the palin in the whole array one by one... and create 2 pointers left and right.... if value both left and right are equal then extend them till they are not equal... most imprtantly there are 2 cases odd length palin and even length palin and you have to check both of them one by one 
+    approach : in this problem, first i try to find centre of the palin in the whole
+     array one by one... and create 2 pointers left and right.... if value both left 
+     and right are equal then extend them till they are not equal... most imprtantly 
+     there are 2 cases odd length palin and even length palin and you have to check both of them one by one 
     
     complexity:
     time:  O(n**2)
